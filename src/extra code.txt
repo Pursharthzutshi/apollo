@@ -1,0 +1,83 @@
+{/* 
+{
+        MovieData.MovieList.map((val)=>{
+          return(
+            <div>
+           
+              <div>
+                </div>
+              <p>{val.name}</p>
+            </div>
+          )
+        })
+}  */}
+{/* {
+
+FindUserByName.MovieList.map((val)=>{
+  return(
+    <div>
+      <p>{val.name}</p>
+    </div>
+  )
+})
+} */}
+
+
+
+  // const {data:MovieData,loading:MovieLoading,error:MovieError} = DisplayMovieData()
+
+  // const [fetchMovie,{data:movieSearchData,error:movieError}] = useLazyQuery(getMovieByName)
+  // const [fetchMovie,{data:movieSearchData,error:movieError}] = useLazyQuery(getMovieByName,{
+  //   variables:movieSearch
+  // })
+
+  // const [createUserPost,{loading:createUserPostLoading}] = useMutation(createUserMutation);
+// useEffect(()=>{
+  //   console.log(fetchMovie)
+  // })
+{/* 
+<button onClick={()=>{
+  fetchMovie({variables:{
+    name:movieSearch
+  }})
+}}>Fetch Data</button> */}
+
+   // update(cache,{data:{deleteUser}}){
+    //   const {userData} = cache.readQuery({query:Query_all_Users})
+    //   const updatedUsers = users.filter(user => user.uid !== deleteUser.uid);
+    //   cache.writeQuery({
+    //     query:Query_all_Users,
+    //     data:{userData:updatedUsers},
+    //   })
+    // },
+
+
+    
+        // createUser(existingData = [],{args,toReference}){
+        //   console.log({...existingData})
+          
+        //   const newData = toReference({...args.user})
+        //   return [newData,{...existingData}]
+        // 
+
+
+        
+ // typePolicies:{
+    //   Query:{
+    //     fields:{
+    //       MovieList:{
+    //         read(data){
+    //           return data
+    //         }
+    //       },
+    //       UserList:{
+    //         merge(e=[],r){
+    //           return [...e,...r]
+    //         }
+    //       }
+          
+    //     }
+        
+    //   },
+      
+    // }

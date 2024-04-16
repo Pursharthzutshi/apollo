@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Montserrat";
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input{
+  margin-top: 20px;
+  font-size: .9rem;
+  padding:4px 2px 4px 12px;
+  box-shadow: .2px .2px 2px .2px lightgray;
+  border: none;
+}
+
+.delete-input{
+  border: none;
+}
+
+input::placeholder{
+
+  font-family: "Montserrat";
+}
+
+.delete-input::placeholder{
+  font-family: "Montserrat";
+}
+
+button{
+  font-size: .9rem;
+  padding: 4px 8px 4px 8px;
+  font-family: "Montserrat";
+  border: none;
+
+}
+
+/* .delete-button,.add-button{
+  font-size: .9rem;
+  padding: 4px 8px 4px 8px;
+  font-family: "Montserrat";
+  border: none;
+
+} */
+
+.add-post-form{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  margin-top: 20px;
+}
+
+.add-button{
+  margin-top: 20px;
 }
